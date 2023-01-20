@@ -33,6 +33,7 @@ def sign(cookie):
 def main():
     b = os.environ['POJIE']
     cookie = b
+    prite(cookie)
     sign_msg = sign(cookie=cookie)
     print(sign_msg)
 
